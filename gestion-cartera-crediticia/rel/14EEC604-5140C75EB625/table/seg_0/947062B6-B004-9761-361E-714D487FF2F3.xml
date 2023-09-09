@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="876EA3BC-4968-CCB2-95F5-932A3C4D2056" name="COLABORADOR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="947062B6-B004-9761-361E-714D487FF2F3" name="COLABORADOR">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>674C9156-2238-031F-0E6F-FE5CCFBC8EEE</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <abbreviation>CLR</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="colaborador_id" id="0490A2A0-8FA0-37EF-95FA-3000313B66E9">
+<Column name="colaborador_id" id="BA811168-B934-0A93-2413-D114BB9F5649">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>FD8B7567-3F1D-2655-9C7C-7D3BE2FE417B</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="correo" id="130189CC-564D-89B8-6AC8-8FAF3BBA83C7">
+<Column name="correo" id="300D14B7-E500-D477-BD91-B1FF6FEA1F28">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>290AC587-3E85-BD1B-ED74-189667E17CC4</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="3E1C4B34-28EF-75B3-CFAA-A5C8CD20767D">
+<Column name="nombre" id="785E6BAF-B0D0-2A39-4822-CE233AD025AF">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>487B52B5-1EED-90D3-2564-514CDDE9A24B</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="apellido" id="075AB89F-404D-1D86-71C8-7F7B12BFAF3A">
+<Column name="apellido" id="B2064373-12B4-58C8-F826-9E4EFBF0FF4C">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>532554A8-C57D-31A4-DDD5-3867AE38A6BB</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,9 +56,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telefono" id="CE4DEF5B-0A05-6DD3-681A-0396DAE988AA">
+<Column name="telefono" id="553AD9FA-1C58-A9FB-61A0-A1B65643C198">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>AEF1B496-930F-F001-0A31-BEBB631FE60E</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,9 +68,9 @@
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fecha_nacimiento" id="F8F78CA4-D890-69A3-847F-B526C1D9640C">
+<Column name="fecha_nacimiento" id="E218554B-19D5-7C1E-EE19-92B59CCEC4AF">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>8BB679F4-48AF-DB17-F109-DD535F175458</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -82,27 +82,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="75AA354F-4CF3-BD2B-C044-60A436BB65B4" name="COLABORADOR_PK">
+<ind_PK_UK id="83989E4E-386E-F3A2-A0B3-04A01D8672D7" name="COLABORADOR_PK">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>539DC5FD-ABA9-0697-7FC9-BE8D1DE9412D</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0490A2A0-8FA0-37EF-95FA-3000313B66E9"/>
+<colUsage columnID="BA811168-B934-0A93-2413-D114BB9F5649"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2A933206-070A-DBA1-F239-DAC423F1151E" name="COLABORADOR_correo_UN">
+<ind_PK_UK id="DC8155A9-3BD6-E4AE-87D1-5EC2B60309E0" name="COLABORADOR_correo_UN">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>099287B0-D890-23E1-EEB8-B277E8B4B9F4</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="130189CC-564D-89B8-6AC8-8FAF3BBA83C7"/>
+<colUsage columnID="300D14B7-E500-D477-BD91-B1FF6FEA1F28"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

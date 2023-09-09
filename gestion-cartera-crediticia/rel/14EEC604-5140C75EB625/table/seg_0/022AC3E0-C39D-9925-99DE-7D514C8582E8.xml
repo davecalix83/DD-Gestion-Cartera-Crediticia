@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7694C00-F010-C369-23DB-74CCB1507678" name="CARTERA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="022AC3E0-C39D-9925-99DE-7D514C8582E8" name="ESTADO_GESTION">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>9D091550-8CBD-1C43-D0F9-D7933D742642</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>F375BFEA-26F9-C4FF-E53F-71E906A6F989</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
-<abbreviation>CTA</abbreviation>
+<abbreviation>ETN</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="cartera_id" id="999E4AD6-87F9-230A-CA9D-861566E82278">
+<Column name="estado_id" id="A20D29D8-BC27-F690-06E8-B1CFD456847D">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>11316A34-0EE3-A505-E720-873979258DEC</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>370F35A0-94BD-4D29-5FFA-6154D7352EBB</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,43 +20,42 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="D7483349-C348-02E0-47CD-C7C531524355">
+<Column name="descripcion" id="BE5217BD-B267-9228-23B9-6EFA258564C0">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>3D1CE2EB-61F6-0318-249D-ADC6D65F957F</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>A4384E31-D42C-E1EA-F1BF-539FC776F6E6</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="descripcion" id="444FB20C-75CF-018C-E3C7-3C061E70E322">
+<Column name="codigo_estado" id="59DA0F56-D654-71C9-7B19-A1FBF3B6A196">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>D73B5618-4855-73D4-6F0F-2032C95B137A</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>B2CC2273-B664-94D8-C330-685BA2CA6563</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E786C608-D737-72ED-04C6-DC8A3EE604C6" name="CARTERA_PK">
+<ind_PK_UK id="B6E5BF6E-3A5C-CADF-AAE2-51213CBF4EF9" name="ESTADO_GESTION_PK">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>4880D6D9-1368-F10C-0A6E-79B1BB814D19</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>E2102483-4881-D4ED-1F8A-01D26B1433D0</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="999E4AD6-87F9-230A-CA9D-861566E82278"/>
+<colUsage columnID="A20D29D8-BC27-F690-06E8-B1CFD456847D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

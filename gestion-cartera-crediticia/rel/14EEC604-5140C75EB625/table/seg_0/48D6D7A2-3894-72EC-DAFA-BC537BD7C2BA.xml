@@ -1,18 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35365256-E05B-6755-8554-2227E510A4BB" name="PROMESA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48D6D7A2-3894-72EC-DAFA-BC537BD7C2BA" name="PAGO">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>4BE785AD-5B0E-398D-97B5-4A889FD3AE57</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>404245D5-1076-7BBB-D3D8-AFBEBCD08598</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
-<abbreviation>PMA</abbreviation>
+<abbreviation>PGO</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="promesa_id" id="AD527C5C-17EB-0924-0D0D-8F7A275131AB">
+<Column name="pago_id" id="17B1DF76-F826-BB4A-847F-718CE3C90B9A">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>6C869BFA-F115-29D4-A2E7-43040E3AAC51</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>C871D12E-D5E0-FA92-0A56-15A55C551236</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -20,33 +20,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="descripcion" id="3A1B92F6-5700-ECFD-3FEE-B79EDB3D530E">
+<Column name="monto" id="F441E378-8DF9-AAC0-236B-2739315AA426">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>51CA3E44-1C5C-3BA6-E5BE-5606D2B67DE8</generatorID>
-<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="fecha_promesa" id="4D17EB77-F63C-C169-20D8-24563A080585">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>0473FAA5-3E6F-460A-C268-B08D396347EF</generatorID>
-<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="valor_promesa" id="9F5BF04B-5C6A-0451-D477-B2CAE703FC07">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>CBA597B0-5D82-151B-6FFC-DD2CCEE261C1</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>5F05AFF0-8528-A475-271B-C34817EE8054</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,10 +33,32 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEUDOR_deudor_id" id="10F842A4-CD75-AFF8-D41D-0D2578D68869">
+<Column name="fecha_pago" id="2C84077E-3D9B-AACE-2C7C-C39695F78B30">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>786FEF3F-8A45-0AF6-51A0-ECD433FCF802</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>B259774D-7731-7A28-19F1-FC4BF9D3C7C5</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto_evidencia" id="F2B78698-E342-988E-878A-23017748F335">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>76F53E7C-FEC9-FFA3-EE03-3A4656EEF5C3</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEUDOR_deudor_id" id="7FAEF2CA-404D-7159-3DCD-21E0F62800FA">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>D949051A-1447-693B-DB23-E3E9790F4267</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,32 +67,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="36CE849D-5400-CF07-D455-634628C96F13" referredColumn="92F84F9E-127C-7AA8-C41A-EB54CDA330E7"/>
+<colAssociation fkAssociation="AFCDBEBD-C929-DC54-D336-FA99CF24A611" referredColumn="1C18F27C-DD82-A455-2E34-530D83D2AD43"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1571092F-C8CC-6E3E-7C67-726989F88243" name="PROMESA_PK">
+<ind_PK_UK id="D8BFE535-D0CE-25EC-1D36-BEEEAF52A08F" name="PAGO_PK">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>8A19E38D-13E9-8113-3648-093F9D610AE4</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>091F5371-9E84-871B-6A78-D99C7B804011</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AD527C5C-17EB-0924-0D0D-8F7A275131AB"/>
+<colUsage columnID="17B1DF76-F826-BB4A-847F-718CE3C90B9A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D9408C83-C483-4185-20A4-07B6195E0F3E" name="PROMESA_DEUDOR_FK">
+<ind_PK_UK id="BB368E8D-0B4F-FBA1-B8BD-2EBDE52C897A" name="PAGO_DEUDOR_FK">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
-<generatorID>1DE7CE07-3304-5807-91CF-A816D6BD2B8E</generatorID>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>D1A931A0-20E6-F31F-040E-B8321C9BED17</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="10F842A4-CD75-AFF8-D41D-0D2578D68869"/>
+<colUsage columnID="7FAEF2CA-404D-7159-3DCD-21E0F62800FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

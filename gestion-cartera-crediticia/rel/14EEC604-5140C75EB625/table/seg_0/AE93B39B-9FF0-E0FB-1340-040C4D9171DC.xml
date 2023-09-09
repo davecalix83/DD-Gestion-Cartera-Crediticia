@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EFD138B-C946-1C0E-8D16-83B6D797B047" name="DEUDOR">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE93B39B-9FF0-E0FB-1340-040C4D9171DC" name="DEUDOR">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>57D2263A-3ECA-2928-9D03-6791CC271E46</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <abbreviation>DDR</abbreviation>
@@ -9,9 +9,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="deudor_id" id="92F84F9E-127C-7AA8-C41A-EB54CDA330E7">
+<Column name="deudor_id" id="1C18F27C-DD82-A455-2E34-530D83D2AD43">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>920FDCAE-AB19-BE45-8F8A-9413D52C1BE9</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="correo" id="C5313CA0-ECC5-1441-246D-FA426B9BA5A0">
+<Column name="correo" id="45F9F940-1227-CD29-9D87-055BDEC8AD53">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>0D4AB871-4771-177B-5F2F-04369E827399</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +32,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre" id="E4CB1596-302E-6FDE-ED1C-F1283D342B96">
+<Column name="nombre" id="2A1B978C-0149-61DE-CC1A-2C8B9A5554CA">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>A163987D-A39D-9757-202F-0BE8816E1EB8</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="apellido" id="E6C923D3-CE1A-5490-7578-AC27A345B031">
+<Column name="apellido" id="BC16DB81-82DF-CFBD-95DE-01AC13CCFE50">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>779A6020-FAE6-FF5F-ED18-360B01ABA0C3</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,9 +56,9 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telefono" id="7396E827-8361-E695-DAA2-33BA2636BF99">
+<Column name="telefono" id="9045BE67-FA24-BF3C-830F-26EE285DBB6B">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>CE3F1D31-05A7-1F8A-2FF3-4E2EC3F9EDC3</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,9 +68,9 @@
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="direccion" id="C0409008-AA7E-73AD-B76D-BCA55D3B73F9">
+<Column name="direccion" id="A8235F95-4EED-9E5F-F29E-44CF72DD8AA6">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>62B62928-E60C-1EDB-2993-57098C88808E</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -80,9 +80,9 @@
 <ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nombre_tercero" id="620A4F8E-E880-62D3-35C3-D16845639E7E">
+<Column name="nombre_tercero" id="D2531246-BF4C-D61A-5268-F1550459E43A">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>C26AF88B-E8D7-4ECB-A9AA-A8C05D553508</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -93,9 +93,9 @@
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="telefono_tercero" id="13BD2400-16A6-578C-4B00-F2FD9CD11382">
+<Column name="telefono_tercero" id="67A2E7C9-4217-6B30-F206-E17B9CCFA44D">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>C8B89302-F9DE-B265-00E8-5AF5CFAE0F20</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -108,27 +108,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="285AAD15-0C64-81FC-B554-FD987BA76108" name="DEUDOR_PK">
+<ind_PK_UK id="D542C4A8-0A08-56A0-24FD-AF877CCC336E" name="DEUDOR_PK">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>84323C46-F198-60F5-8A1C-07F3CECC295E</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="92F84F9E-127C-7AA8-C41A-EB54CDA330E7"/>
+<colUsage columnID="1C18F27C-DD82-A455-2E34-530D83D2AD43"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="349602A0-2A22-2883-6E55-39783A27BD96" name="DEUDOR_correo_UN">
+<ind_PK_UK id="088F10EF-21D3-4CD1-01CF-BD7511304984" name="DEUDOR_correo_UN">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
 <generatorID>595619EB-DB55-9863-6183-68A5AE545E4F</generatorID>
 <ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C5313CA0-ECC5-1441-246D-FA426B9BA5A0"/>
+<colUsage columnID="45F9F940-1227-CD29-9D87-055BDEC8AD53"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

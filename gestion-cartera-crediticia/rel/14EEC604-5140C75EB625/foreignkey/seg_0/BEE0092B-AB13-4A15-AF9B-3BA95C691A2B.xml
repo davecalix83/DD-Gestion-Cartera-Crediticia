@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEE0092B-AB13-4A15-AF9B-3BA95C691A2B" containerWithKeyObject="B6057617-3047-0B76-3A23-CD91E5ABE4EF" localFKIndex="9FCEE191-0172-9CC1-9855-2D72C51E52D9" name="GESTION_ESTADO_GESTION_FK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>60AE2D81-5E4E-6C78-930B-7FEE39B64327</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<referredTableLongName>ESTADO_GESTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>022AC3E0-C39D-9925-99DE-7D514C8582E8</referredTableID>
+<keyObject>B6E5BF6E-3A5C-CADF-AAE2-51213CBF4EF9</keyObject>
+<referredKeyID>B6E5BF6E-3A5C-CADF-AAE2-51213CBF4EF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>estado_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

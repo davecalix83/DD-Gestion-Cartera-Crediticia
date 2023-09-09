@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5ADDA6DB-268B-8228-73E7-1405CF688F86" containerWithKeyObject="BC38266F-5A04-E1B9-06E4-B5FDB63E2CBA" localFKIndex="2E6E722C-9F3A-0710-8AF7-ACC7688E553B" name="ASIGNACION_DEUDOR_DEUDOR_FK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:58:11 UTC</createdTime>
+<generatorID>F87C3738-30C7-7B6A-EB1D-6A343780F8BA</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<referredTableLongName>DEUDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE93B39B-9FF0-E0FB-1340-040C4D9171DC</referredTableID>
+<keyObject>D542C4A8-0A08-56A0-24FD-AF877CCC336E</keyObject>
+<referredKeyID>D542C4A8-0A08-56A0-24FD-AF877CCC336E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>deudor_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
