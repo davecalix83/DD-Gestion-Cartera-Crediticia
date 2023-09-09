@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5CD2B492-DF8E-5208-AAE9-67F964812A4F" name="GESTION">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:00:38 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>GTN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gestion id" id="DD4EF18F-6CD2-19F2-E3EB-80BBCDC3D881">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:10:26 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion " id="3FED306D-C3DE-B6D6-0B81-FE0CBA598653">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:10:26 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="E5C878B5-C2E5-969C-E7ED-B8E29F0D50DE">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:10:26 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugar de visita" id="087B05A9-9833-E4AD-08B8-2A1B2D701B92">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:10:26 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo visita" id="D2A83F54-8DCD-ED01-893F-2B9834344EFA">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:15:40 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto evidencia" id="A86E4CFD-3954-0A33-061F-5038958416C3">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:10:33 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deudor id" id="22ED8424-A0F5-CF1F-E12B-47DDBCF4EB9C">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:11:34 UTC</createdTime>
+<generatorID>15A38E2C-1DC3-4632-5DB4-AEE86EB8845E</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>920FDCAE-AB19-BE45-8F8A-9413D52C1BE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="colaborador id" id="A54D4DF8-E62D-B055-4A6A-66114F2C0EFB">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:13:21 UTC</createdTime>
+<generatorID>08F76D35-F729-1475-5C17-9D20B1BED91A</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>FD8B7567-3F1D-2655-9C7C-7D3BE2FE417B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado id" id="A8B61A4B-0FBA-45E1-4141-7DD1C875FF85">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:38:58 UTC</createdTime>
+<generatorID>60AE2D81-5E4E-6C78-930B-7FEE39B64327</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>370F35A0-94BD-4D29-5FFA-6154D7352EBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="875FCF4D-F5C8-2FC1-0919-01011F7BF95B" name="GESTION PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:05:41 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD4EF18F-6CD2-19F2-E3EB-80BBCDC3D881</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

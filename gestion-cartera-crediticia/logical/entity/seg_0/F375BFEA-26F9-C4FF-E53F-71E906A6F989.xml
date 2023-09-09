@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F375BFEA-26F9-C4FF-E53F-71E906A6F989" name="ESTADO GESTION">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:35:34 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ETN</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="estado id" id="370F35A0-94BD-4D29-5FFA-6154D7352EBB">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:36:05 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="A4384E31-D42C-E1EA-F1BF-539FC776F6E6">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:36:29 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo estado" id="B2CC2273-B664-94D8-C330-685BA2CA6563">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:37:06 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2102483-4881-D4ED-1F8A-01D26B1433D0" name="ESTADO GESTION PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:36:25 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>370F35A0-94BD-4D29-5FFA-6154D7352EBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

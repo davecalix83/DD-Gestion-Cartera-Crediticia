@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="605069CD-A0FE-232F-B384-DD2F46AB0F9A" name="ESTADO_GESTION">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>F375BFEA-26F9-C4FF-E53F-71E906A6F989</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<abbreviation>ETN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="estado_id" id="C1CC6850-442C-A0F7-88F5-70B40E3BE337">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>370F35A0-94BD-4D29-5FFA-6154D7352EBB</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="0843F687-C545-F244-59F2-DD2C76EC316D">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>A4384E31-D42C-E1EA-F1BF-539FC776F6E6</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_estado" id="B417B79B-BEAB-E31F-64D6-7DDB7F29188D">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>B2CC2273-B664-94D8-C330-685BA2CA6563</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A951348-4174-F393-7E02-E4932F766241" name="ESTADO_GESTION_PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>E2102483-4881-D4ED-1F8A-01D26B1433D0</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1CC6850-442C-A0F7-88F5-70B40E3BE337"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

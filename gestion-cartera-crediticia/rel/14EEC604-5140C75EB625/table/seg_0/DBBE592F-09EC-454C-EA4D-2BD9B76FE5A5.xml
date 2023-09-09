@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBBE592F-09EC-454C-EA4D-2BD9B76FE5A5" name="CARTERA">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>9D091550-8CBD-1C43-D0F9-D7933D742642</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<abbreviation>CTA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cartera_id" id="CB1E3B11-EF08-7AA8-27C8-F87C822CEDA3">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>11316A34-0EE3-A505-E720-873979258DEC</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5C466346-CE73-AC6B-003A-C9AA6A1EA925">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>3D1CE2EB-61F6-0318-249D-ADC6D65F957F</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="887E6ACF-AAF9-18E8-466E-710532E7FEAE">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>D73B5618-4855-73D4-6F0F-2032C95B137A</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5C60E21-4F19-CBB4-B1D2-020590A60EC9" name="CARTERA_PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>4880D6D9-1368-F10C-0A6E-79B1BB814D19</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB1E3B11-EF08-7AA8-27C8-F87C822CEDA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

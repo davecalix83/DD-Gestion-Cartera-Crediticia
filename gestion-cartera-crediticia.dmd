@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gestion-cartera-crediticia" id="E994A9C3-9004-E4F4-6146-98FFC06F84F3" version="3.5">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 00:48:04 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E994A9C3-9004-E4F4-6146-98FFC06F84F3</designId>
+</OSDM_Design>

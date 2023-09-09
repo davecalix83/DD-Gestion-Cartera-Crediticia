@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="1DE7CE07-3304-5807-91CF-A816D6BD2B8E">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:09:53 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>84323C46-F198-60F5-8A1C-07F3CECC295E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>57D2263A-3ECA-2928-9D03-6791CC271E46</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4BE785AD-5B0E-398D-97B5-4A889FD3AE57</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

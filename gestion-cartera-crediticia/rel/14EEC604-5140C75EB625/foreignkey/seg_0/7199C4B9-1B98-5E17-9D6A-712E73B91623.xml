@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7199C4B9-1B98-5E17-9D6A-712E73B91623" containerWithKeyObject="A868A523-0133-35F2-00EF-43667A5DDB97" localFKIndex="4EDF205F-94C5-8327-CBEF-521AC2A504C6" name="DETALLE_CARTERA_CARTERA_FK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:39:22 UTC</createdTime>
+<generatorID>ADF52BB3-86A3-3BC9-2810-C6EC73995967</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<referredTableLongName>CARTERA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBBE592F-09EC-454C-EA4D-2BD9B76FE5A5</referredTableID>
+<keyObject>C5C60E21-4F19-CBB4-B1D2-020590A60EC9</keyObject>
+<referredKeyID>C5C60E21-4F19-CBB4-B1D2-020590A60EC9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cartera_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

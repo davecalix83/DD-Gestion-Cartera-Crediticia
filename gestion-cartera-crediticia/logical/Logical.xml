@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FB710857-F448-D612-1EC9-885C8253D08A" mainViewID="3ADB7DCC-B6E4-49C8-44C1-8D37AAB6BE71">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 00:48:04 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

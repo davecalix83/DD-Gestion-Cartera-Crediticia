@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3FE7C75-EEFD-7856-0287-94687570C5AE" name="ASIGNACION DEUDOR">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:20:49 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ASR</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha asignacion" id="04A8E0DC-1632-E252-5B3B-4DF4BD1F49B9">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:21:09 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deudor id" id="A30A3E3D-EDD2-85E2-A8A2-B5CFE743261B">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:21:35 UTC</createdTime>
+<generatorID>F87C3738-30C7-7B6A-EB1D-6A343780F8BA</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>920FDCAE-AB19-BE45-8F8A-9413D52C1BE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="colaborador id" id="6041D39A-F1B6-4D69-2C69-210DE85234DD">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:21:42 UTC</createdTime>
+<generatorID>3D54CB71-42B7-54FF-CD64-5C51E2F37EC6</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>FD8B7567-3F1D-2655-9C7C-7D3BE2FE417B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85FD9AEA-CFA3-BFF8-14CE-4DD7014A43D2" name="ASIGNSCION DEUJDOR PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:21:24 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04A8E0DC-1632-E252-5B3B-4DF4BD1F49B9</attributeRef>
+<attributeRef>A30A3E3D-EDD2-85E2-A8A2-B5CFE743261B</attributeRef>
+<attributeRef>6041D39A-F1B6-4D69-2C69-210DE85234DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

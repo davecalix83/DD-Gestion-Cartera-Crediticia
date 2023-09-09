@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9CCC518-5F2A-F699-EC17-EFD703E0E972" name="DETALLE CARTERA">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:00:18 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>DTA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha otorgamiento credito" id="1F0453E4-28C7-2350-4A1B-150C00E10A6D">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:18:42 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto credito" id="B989A557-4C3B-AEB8-33CC-648223CD980A">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:19:37 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plazo" id="FFBF7A1D-C6A2-36B5-8583-8254D9221710">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:32:31 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cartera id" id="D3E4A123-9B40-2D99-2B47-6C1150A151BB">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:09:08 UTC</createdTime>
+<generatorID>ADF52BB3-86A3-3BC9-2810-C6EC73995967</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>11316A34-0EE3-A505-E720-873979258DEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deudor id" id="B7691CA8-D691-E377-BD65-A9A80BAF9E61">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:53:46 UTC</createdTime>
+<generatorID>7E4965B4-A816-3524-068A-CB8C2D876498</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<referedAttribute>920FDCAE-AB19-BE45-8F8A-9413D52C1BE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FBA1B4D-1E02-2583-8AB2-A4CAC9080860" name="DETALLE CARTERA PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 09:05:30 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F0453E4-28C7-2350-4A1B-150C00E10A6D</attributeRef>
+<attributeRef>D3E4A123-9B40-2D99-2B47-6C1150A151BB</attributeRef>
+<attributeRef>B7691CA8-D691-E377-BD65-A9A80BAF9E61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
