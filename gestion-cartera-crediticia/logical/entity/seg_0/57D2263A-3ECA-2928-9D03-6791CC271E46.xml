@@ -80,6 +80,19 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="direccion" id="62B62928-E60C-1EDB-2993-57098C88808E">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:11:33 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nombre tercero" id="C26AF88B-E8D7-4ECB-A9AA-A8C05D553508">
 <createdBy>hguzman</createdBy>
 <createdTime>2023-09-09 02:01:28 UTC</createdTime>
@@ -120,6 +133,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>920FDCAE-AB19-BE45-8F8A-9413D52C1BE9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="595619EB-DB55-9863-6183-68A5AE545E4F" name="Key_2">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:15:35 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<newElementsIDs>0D4AB871-4771-177B-5F2F-04369E827399</newElementsIDs>
+<usedAttributes>
+<attributeRef>0D4AB871-4771-177B-5F2F-04369E827399</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

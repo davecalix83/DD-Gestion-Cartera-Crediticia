@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>E2102483-4881-D4ED-1F8A-01D26B1433D0</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>podria asignarse a</nameOnSource>
+<nameOnTarget>debe tener </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

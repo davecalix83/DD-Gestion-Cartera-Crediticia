@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EFD138B-C946-1C0E-8D16-83B6D797B047" name="DEUDOR">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>57D2263A-3ECA-2928-9D03-6791CC271E46</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<abbreviation>DDR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="deudor_id" id="92F84F9E-127C-7AA8-C41A-EB54CDA330E7">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>920FDCAE-AB19-BE45-8F8A-9413D52C1BE9</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="C5313CA0-ECC5-1441-246D-FA426B9BA5A0">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>0D4AB871-4771-177B-5F2F-04369E827399</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E4CB1596-302E-6FDE-ED1C-F1283D342B96">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>A163987D-A39D-9757-202F-0BE8816E1EB8</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="E6C923D3-CE1A-5490-7578-AC27A345B031">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>779A6020-FAE6-FF5F-ED18-360B01ABA0C3</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="7396E827-8361-E695-DAA2-33BA2636BF99">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>CE3F1D31-05A7-1F8A-2FF3-4E2EC3F9EDC3</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C0409008-AA7E-73AD-B76D-BCA55D3B73F9">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>62B62928-E60C-1EDB-2993-57098C88808E</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tercero" id="620A4F8E-E880-62D3-35C3-D16845639E7E">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>C26AF88B-E8D7-4ECB-A9AA-A8C05D553508</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_tercero" id="13BD2400-16A6-578C-4B00-F2FD9CD11382">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>C8B89302-F9DE-B265-00E8-5AF5CFAE0F20</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="285AAD15-0C64-81FC-B554-FD987BA76108" name="DEUDOR_PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>84323C46-F198-60F5-8A1C-07F3CECC295E</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92F84F9E-127C-7AA8-C41A-EB54CDA330E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="349602A0-2A22-2883-6E55-39783A27BD96" name="DEUDOR_correo_UN">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>595619EB-DB55-9863-6183-68A5AE545E4F</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5313CA0-ECC5-1441-246D-FA426B9BA5A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

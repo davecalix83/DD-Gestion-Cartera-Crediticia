@@ -9,6 +9,8 @@
 <targetTransferable>false</targetTransferable>
 <sourcePk>84323C46-F198-60F5-8A1C-07F3CECC295E</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>podria tener</nameOnSource>
+<nameOnTarget>debe pertenecer </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

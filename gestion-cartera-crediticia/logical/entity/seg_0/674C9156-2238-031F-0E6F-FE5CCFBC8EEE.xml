@@ -28,6 +28,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="correo" id="290AC587-3E85-BD1B-ED74-189667E17CC4">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 02:07:11 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nombre" id="487B52B5-1EED-90D3-2564-514CDDE9A24B">
 <createdBy>hguzman</createdBy>
 <createdTime>2023-09-09 02:07:10 UTC</createdTime>
@@ -67,19 +80,6 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="correo" id="290AC587-3E85-BD1B-ED74-189667E17CC4">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-09-09 02:07:11 UTC</createdTime>
-<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
-<engineerTo>
-<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="fecha nacimiento" id="8BB679F4-48AF-DB17-F109-DD535F175458">
 <createdBy>hguzman</createdBy>
 <createdTime>2023-09-09 02:07:41 UTC</createdTime>
@@ -105,6 +105,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FD8B7567-3F1D-2655-9C7C-7D3BE2FE417B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="099287B0-D890-23E1-EEB8-B277E8B4B9F4" name="Key_2">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:17:40 UTC</createdTime>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<engineerTo>
+<item key="14EEC604-9758-3C31-BEF1-5140C75EB625" value="true"/>
+</engineerTo>
+<newElementsIDs>290AC587-3E85-BD1B-ED74-189667E17CC4</newElementsIDs>
+<usedAttributes>
+<attributeRef>290AC587-3E85-BD1B-ED74-189667E17CC4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

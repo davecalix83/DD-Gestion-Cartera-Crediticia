@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54890051-FF33-D7CB-7D6C-D27C45517BF1" name="ASIGNACION_DEUDOR">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>B3FE7C75-EEFD-7856-0287-94687570C5AE</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<abbreviation>ASR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fecha_asignacion" id="10D9C682-43F7-C6C6-D1EB-9050B57E0145">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>04A8E0DC-1632-E252-5B3B-4DF4BD1F49B9</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEUDOR_deudor_id" id="C227499C-C653-3F79-B215-EB699EE352D5">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>A30A3E3D-EDD2-85E2-A8A2-B5CFE743261B</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="609516C8-B5C8-53E7-F536-AE2373FCBC2F" referredColumn="92F84F9E-127C-7AA8-C41A-EB54CDA330E7"/>
+</associations>
+</Column>
+<Column name="COLABORADOR_colaborador_id" id="7513EC5D-23A8-0A5E-C655-494E860FB073">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>6041D39A-F1B6-4D69-2C69-210DE85234DD</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFAD7956-B6E9-18CB-4624-F1BBB5192CE2" referredColumn="0490A2A0-8FA0-37EF-95FA-3000313B66E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D0288BB-1DEA-DA82-F63D-FC03CDC85389" name="ASIGNACION_DEUDOR_PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>85FD9AEA-CFA3-BFF8-14CE-4DD7014A43D2</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D9C682-43F7-C6C6-D1EB-9050B57E0145"/>
+<colUsage columnID="C227499C-C653-3F79-B215-EB699EE352D5"/>
+<colUsage columnID="7513EC5D-23A8-0A5E-C655-494E860FB073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4537A077-450D-356C-0D20-D7434D484472" name="ASIGNACION_DEUDOR_DEUDOR_FK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>F87C3738-30C7-7B6A-EB1D-6A343780F8BA</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C227499C-C653-3F79-B215-EB699EE352D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A10D7937-49F0-F935-0594-607D8DC49C2C" name="ASIGNACION_DEUDOR_COLABORADOR_FK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-09 10:25:53 UTC</createdTime>
+<generatorID>3D54CB71-42B7-54FF-CD64-5C51E2F37EC6</generatorID>
+<ownerDesignName>gestion-cartera-crediticia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7513EC5D-23A8-0A5E-C655-494E860FB073"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

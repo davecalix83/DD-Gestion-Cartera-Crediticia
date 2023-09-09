@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>4880D6D9-1368-F10C-0A6E-79B1BB814D19</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>podria tener </nameOnSource>
+<nameOnTarget>debe pertenecer</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

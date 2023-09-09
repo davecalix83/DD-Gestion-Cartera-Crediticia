@@ -8,6 +8,8 @@
 </engineerTo>
 <sourcePk>539DC5FD-ABA9-0697-7FC9-BE8D1DE9412D</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>podria estar asignado a uno o mas</nameOnSource>
+<nameOnTarget>debe pertenecer a</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
