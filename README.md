@@ -1,2 +1,2 @@
-# DD-Gestion-Cartera-Crediticia
-Proyecto de gestion de cartera crediticia en mora
+# DD-Gestión-Cartera-Crediticia
+Proyecto de gestión de cartera crediticia en mora.
